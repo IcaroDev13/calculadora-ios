@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back {
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#562C9C
+  
+}
+
+h1{
+    text-align: center;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.625);
+    backdrop-filter: blur(105px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    outline: 0.01mm solid rgba(0, 0, 0, 0.833);
+    border: 0.01mm solid rgba(255, 255, 255, 0.58);
+    box-shadow: 10px 20px 90px black;
+    margin: 0 auto;
+    max-width: 270px;
+}
+
+.circule-y,
+.circule-r,
+.circule-g {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+.circule-g {
+    background-color: #5dc942;
+}
+
+.circule-r {
+    background-color: #ee5c54;
+    margin-left: 10px;
+}
+
+.circule-y {
+    background-color: #f8bc45;
+}
+
+.botao,
+.botao-l,
+.botao-s {
+    background-color: #928f9290;
+    backdrop-filter: blur(100px);
+    width: 65px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0, 5px;
+    color: #fff;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all .2s ease-in-out;
+}
+
+.botao-l {
+    background-color: #f49e3f;
+}
+
+.botao-s {
+    background-color: #66516841;
+    backdrop-filter: blur(100px);
+
+}
+
+.botao-l:hover{
+    background-color:#f4b26b;
+}
+
+.botao-s:hover{
+    background-color: #988f9941;
+}
+
+.botao:hover{
+    background-color: #d5cbd5b3 ;
+}
+#resultado{
+    font-size: 4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, ;
+    text-align: right;
+    padding-right: 15px;
+    height: 75px;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow:auto;
+    text-overflow:clip;
+}
+
+.botao-l:active{
+    background-color: white;
+    color:#f49e3f;
+}
+
+.botao:active{
+    background-color: #f5f4f5b3  ;
+}
+
+.botao-s:active{
+    background-color: #d4d4d441;
+}
+
+.botao-l:focus{
+    background-color: white;
+    color:#f49e3f;
+}
+
+
+table{
+    border:1in;
+
+}
+
+
+
+.containner figure.montagem svg{
+    position: absolute;
+    margin-top:450px;
+}
